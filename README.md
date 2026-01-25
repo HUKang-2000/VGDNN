@@ -32,4 +32,25 @@ nohup Rscript Preprocessing/BRCA1_BRCA2_VUS_preprocessing.R > logs_BRCA1_BRCA2_V
 nohup Rscript Preprocessing/MLH1_MSH2_VUS_preprocessing.R  > logs_MLH1_MSH2_VUS_preprocess.txt  2>&1 &
 ```
 
-5. ㅁㄴㅇ
+4. Run BRCA1 (Gene-specific fine-tuning with VUS & DS pretraining)
+```sh
+nohup bash VUS_finetuning_pretraining/BRCA1_GS_finetuning_VUS_pretraining/run.sh \
+> logs/BRCA1_GS_run.log 2>&1 &
+```
+
+5. Run BRCA2 (Disease-specific fine-tuning with VUS & DS pretraining)
+```sh
+nohup bash VUS_finetuning_pretraining/BRCA2_DS_finetuning_VUS_pretraining/run.sh \
+> logs/BRCA2_DS_run.log 2>&1 &
+```
+
+6. Run MLH1 (Disease-specific fine-tuning with VUS & DS pretraining)
+```sh
+nohup bash VUS_finetuning_pretraining/MLH1_DS_finetuning_VUS_pretraining/run.sh \
+> logs/MLH1_DS_run.log 2>&1 &
+```
+7. Run MSH2 (Disease-specific fine-tuning with VUS & DS pretraining)
+```sh
+nohup bash VUS_finetuning_pretraining/MSH2_DS_finetuning_VUS_pretraining/run.sh \
+> logs/MSH2_DS_run.log 2>&1 &
+```
