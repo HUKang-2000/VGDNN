@@ -28,8 +28,8 @@ cd Our_Model
 
 3. Preprocessing for each gene:
 ```sh
-nohup Rscript Preprocessing/BRCA1_BRCA2_VUS_preprocessing.R > logs_BRCA1_BRCA2_VUS_preprocess.out 2>&1 &
-nohup Rscript Preprocessing/MLH1_MSH2_VUS_preprocessing.R  > logs_MLH1_MSH2_VUS_preprocess.out  2>&1 &
+nohup Rscript Preprocessing/BRCA1_BRCA2_VUS_preprocessing.R > logs_BRCA1_BRCA2_VUS_preprocess.txt 2>&1 &
+nohup Rscript Preprocessing/MLH1_MSH2_VUS_preprocessing.R  > logs_MLH1_MSH2_VUS_preprocess.txt  2>&1 &
 ```
 
 5. ㅁㄴㅇ
