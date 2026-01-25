@@ -16,14 +16,14 @@ If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
 ## Quick start guide
 1. Download the source code and the dataset, then put them in the current working directory.
 ```sh
-wget -c "Download URL"
+wget --no-check-certificate "https://drive.google.com/uc?export=download&id=14MwvN8UIc-ykiP0J4jlpXhMUdrphyTbD" -O VGDNN.tar.gz
 ```
-OR open the save link in any web browser: https://xxx.com
+OR open the save link in any web browser: [https://drive.google.com/file/d/14MwvN8UIc-ykiP0J4jlpXhMUdrphyTbD/view?usp=sharing]
 
 2. Extract downloaded folder:
 ```sh
-tar -xvzf Our_Model.tar.gz
-cd Our_Model
+tar -xvzf VGDNN.tar.gz
+cd VGDNN
 ```
 
 3. Preprocessing for each gene:
