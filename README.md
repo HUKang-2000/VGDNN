@@ -16,9 +16,9 @@ If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
 ## Quick start guide
 1. Download the source code and the dataset, then put them in the current working directory.
 ```sh
-wget --no-check-certificate "https://drive.google.com/uc?export=download&id=14MwvN8UIc-ykiP0J4jlpXhMUdrphyTbD" -O VGDNN.tar.gz
+wget --no-check-certificate "https://drive.google.com/uc?export=download&id=1lWc2W5TCyj_ujJ81O0dfxx0Sm3LXc0x_" -O VGDNN.tar.gz
 ```
-OR open the save link in any web browser: [https://drive.google.com/file/d/14MwvN8UIc-ykiP0J4jlpXhMUdrphyTbD/view?usp=sharing]
+OR open the save link in any web browser: [https://drive.google.com/file/d/1lWc2W5TCyj_ujJ81O0dfxx0Sm3LXc0x_/view?usp=sharing]
 
 2. Extract downloaded folder:
 ```sh
