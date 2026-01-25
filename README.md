@@ -1,4 +1,4 @@
-# Our Model name
+# VGDNN
 Copyright (c) 2026 [Author name]. All rights reserved. The author retains all rights to this software and documentation
 
 ## Contact
