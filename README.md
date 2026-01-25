@@ -12,3 +12,13 @@ If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
 - numpy=1.19.5
 - PRROC=1.4
 - caret=7.0.1
+
+## Quick start guide
+1. Download the source code and the dataset, then put them in the current working directory.
+```sh
+wget -c "Download URL"
+```
+OR open the save link in any web browser: https://xxx.com
+
+2. asda
+3. s
