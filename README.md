@@ -20,5 +20,16 @@ wget -c "Download URL"
 ```
 OR open the save link in any web browser: https://xxx.com
 
-2. asda
-3. s
+2. Extract downloaded folder:
+```sh
+tar -xvzf Our_Model.tar.gz
+cd Our_Model
+```
+
+3. Preprocessing for each gene:
+```sh
+nohup Rscript Preprocessing/BRCA1_BRCA2_VUS_preprocessing.R > logs_BRCA1_BRCA2_VUS_preprocess.out 2>&1 &
+nohup Rscript Preprocessing/MLH1_MSH2_VUS_preprocessing.R  > logs_MLH1_MSH2_VUS_preprocess.out  2>&1 &
+```
+
+5. ㅁㄴㅇ
