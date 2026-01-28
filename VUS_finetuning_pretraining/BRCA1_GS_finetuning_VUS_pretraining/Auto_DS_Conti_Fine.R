@@ -93,14 +93,14 @@ x_train<-apply(x_train[BRCA1_train_idx,-1],2,as.numeric)
 y_train<-get(t)
 y_train<-y_train[BRCA1_train_idx]
 
-d<-paste("x_test_",fold,"_BRCA2",sep="")
-t<-paste("y_test_",fold,"_BRCA2",sep="")
+d<-paste("x_test_",fold,"_BRCA1",sep="")
+t<-paste("y_test_",fold,"_BRCA1",sep="")
 
 x_test<-get(d)
 BRCA1_test_idx<-which(x_train[,"test_GI"]=="BRCA1")
 x_test<-apply(x_test[BRCA1_test_idx,-1],2,as.numeric)
 y_test<-get(t)
-y_train<-y_train[BRCA1_test_idx]
+y_test<-y_test[BRCA1_test_idx]
 
 #Fine_tuning
 set.seed(21)
