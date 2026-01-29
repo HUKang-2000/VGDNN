@@ -21,7 +21,7 @@ VGDNN uses the following software and R packages:
 - caret (== 7.0.1)
 
 ## Databases
-- ClinVar, GRCh38 (clinvar_20220723.vcf.gz)
+- ClinVar (GRCh38; clinvar_20220723.vcf.gz)
 - dbNSFP version 4.2a
 - dbSNP build 151
 - dbscSNV version 1.1
