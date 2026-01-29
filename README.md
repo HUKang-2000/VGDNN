@@ -21,7 +21,7 @@ VGDNN uses the following software and R packages:
 - caret (== 7.0.1)
 
 ## Installation
-1. Download the source code and the dataset, then put them in the current working directory.
+Download the source code and the dataset, then put them in the current working directory.
 ```sh
 wget --no-check-certificate "https://drive.google.com/uc?export=download&id=1lWc2W5TCyj_ujJ81O0dfxx0Sm3LXc0x_" -O VGDNN.tar.gz
 ```
