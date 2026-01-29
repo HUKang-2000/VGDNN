@@ -1,5 +1,5 @@
-# VGDNN
-This package provides the Variants of uncertain significance-guided pretrained deep neural networks(VGDNN) model implementation. This implementation is provided for reference alongside the VGDNN 2026 publication and will not be actively maintained moving forward.
+# Variants of uncertain significance-guided pretrained deep neural networks (VGDNN)
+This package provides the VGDNN model implementation. This implementation is provided for reference alongside the VGDNN 2026 publication and will not be actively maintained moving forward.
 
 what we provide:
 - Annotated variant dataset, containing curated features and labels used in this study(Final_annotated.RData).
