@@ -12,12 +12,13 @@ Copyright (c) 2026 [Lee, D.-B, Kang, H.-U, and and Hwang, K.-B.]. All rights res
 ## Contact
 If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
 
-## Requirements
-- R>3.6
-- tensorflow=2.5.0
-- keras=2.5.0
-- PRROC=1.4
-- caret=7.0.1
+## Dependencies
+VGDNN uses the following software and R packages:
+- R (>= 3.6)
+- TensorFlow (== 2.5.0)
+- Keras (== 2.5.0)
+- PRROC (== 1.4)
+- caret (== 7.0.1)
 
 ## Installation
 1. Download the source code and the dataset, then put them in the current working directory.
