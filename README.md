@@ -1,9 +1,9 @@
-# Variants of uncertain significance-guided pretrained deep neural networks (VGDNN)
-This package provides the VGDNN model implementation. This implementation is provided for reference alongside the VGDNN 2026 publication and will not be actively maintained moving forward.
+# VGDNN
+This package provides the Variants of uncertain significance-guided pretrained deep neural networks (VGDNN) model implementation. This implementation is provided for reference alongside the VGDNN 2026 publication and will not be actively maintained moving forward.
 
 what we provide:
-- Annotated variant dataset, containing curated features and labels used in this study(Final_annotated.RData).
-- Preprocessing scripts for VUS construction and feature preparation(BRCA1_BRCA2_VUS_preprocessing.R, MLH1_MSH2_VUS_preprocessing.R)
+- Annotated variant dataset, containing curated features and labels used in this study (Final_annotated.RData).
+- Preprocessing scripts for VUS construction and feature preparation (BRCA1_BRCA2_VUS_preprocessing.R, MLH1_MSH2_VUS_preprocessing.R)
 - Training code for both pretraining and fine-tuning, provided separately for BRCA1, BRCA2, MLH1, and MSH2, enabling reproduction of the proposed learning framework under gene-specific and disease-specific setups.
 
 ## Copyright
