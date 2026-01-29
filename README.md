@@ -22,6 +22,7 @@ VGDNN uses the following software and R packages:
 
 ## Databases
 - ClinVar (GRCh38; clinvar_20220723.vcf.gz)
+- Ensembl Variant Effect Predictor version 94
 - dbNSFP version 4.2a
 - dbSNP build 151
 - dbscSNV version 1.1
