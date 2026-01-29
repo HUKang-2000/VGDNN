@@ -6,6 +6,7 @@ This package provides the Variants of uncertain significance-guided pretrained d
 - Preprocessing scripts for VUS construction and feature preparation (BRCA1_BRCA2_VUS_preprocessing.R, MLH1_MSH2_VUS_preprocessing.R)
 - Training code for both pretraining and fine-tuning, provided separately for BRCA1, BRCA2, MLH1, and MSH2, enabling reproduction of the proposed learning framework under gene-specific and disease-specific setups.
 
+
 **Database**
 - ClinVar, GRCh38 (clinvar_20220723.vcf.gz)
 - dbNSFP v4.2a
