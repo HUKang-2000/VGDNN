@@ -1,12 +1,11 @@
-# VGDNN
-Copyright (c) 2026 [Author name]. All rights reserved. The author retains all rights to this software and documentation
+# Variants of uncertain significance-guided pretrained deep neural networks(VGDNN)
+Copyright (c) 2026 [Lee, D.-B, Kang, H.-U, and and Hwang, K.-B.]. All rights reserved. The author retains all rights to this software and documentation
 
 ## Contact
 If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
 
 ## Requirements
-- python=3.8.10
-- R=3.6.3
+- R>3.6
 - tensorflow=2.5.0
 - keras=2.5.0
 - PRROC=1.4
