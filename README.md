@@ -7,7 +7,7 @@ what we provide:
 - Training code for both pretraining and fine-tuning, provided separately for BRCA1, BRCA2, MLH1, and MSH2, enabling reproduction of the proposed learning framework under gene-specific and disease-specific setups.
 
 ## Copyright
-Copyright (c) 2026 [Lee, D.-B, Kang, H.-U, and and Hwang, K.-B.]. All rights reserved. The author retains all rights to this software and documentation
+Copyright (c) 2026 Lee, D.-B, Kang, H.-U, and and Hwang, K.-B. All rights reserved. The author retains all rights to this software and documentation
 
 ## Contact
 If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
