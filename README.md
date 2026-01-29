@@ -22,16 +22,16 @@ VGDNN uses the following software and R packages:
 
 ## Databases
 - ClinVar, GRCh38 (clinvar_20220723.vcf.gz)
-- dbNSFP v4.2a
-- Ensembl VEP v94
-- SnpEff v5.1d
-- SnpSift v5.1d
+- bcftools version 1.15.1
+- dbNSFP version 4.2a
+- Ensembl Variant Effect Predictor version 94
+- SnpEff version 5.1d
+- SnpSift version 5.1d
 - dbSNP build 151
-- dbscSNV v1.1
-- gnomAD v3.1.2
-- Korean Variant Archive v2
+- dbscSNV version 1.1
+- gnomAD version 3.1.2
+- Korean Variant Archive version 2
 - Korean Reference Genome Database phase 2
-- UK10K (via dbNSFP)
 
 ## Installation
 Download the source code and the dataset, then put them in the current working directory.
