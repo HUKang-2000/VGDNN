@@ -3,8 +3,8 @@ This package provides the Variants of uncertain significance-guided pretrained d
 
 **What we provide:**
 - Annotated variant dataset, containing curated features and labels used in this study (Final_annotated.RData).
-- Preprocessing scripts for VUS construction and feature preparation (BRCA1_BRCA2_VUS_preprocessing.R, MLH1_MSH2_VUS_preprocessing.R)
-- Training code for both pretraining and fine-tuning, provided separately for BRCA1, BRCA2, MLH1, and MSH2, enabling reproduction of the proposed learning framework under gene-specific and disease-specific setups.
+- Preprocessing scripts for variant filtering, feature preparation, and VUS selection for pretraining (BRCA1_BRCA2_VUS_preprocessing.R, MLH1_MSH2_VUS_preprocessing.R)
+- Training code for joint VUS and disease-specific pretraining, followed by gene-specific (BRCA1) or disease-specific (BRCA2, MLH1, MSH2) fine-tuning, as used in this study.
 
 ## Copyright
 Copyright (c) 2026 Lee, D.-B, Kang, H.-U, and and Hwang, K.-B. All rights reserved. The author retains all rights to this software and documentation
@@ -20,7 +20,7 @@ VGDNN uses the following software and R packages:
 - PRROC (== 1.4)
 - caret (== 7.0.1)
 
-## Database
+## Databases
 - ClinVar, GRCh38 (clinvar_20220723.vcf.gz)
 - dbNSFP v4.2a
 - Ensembl VEP v94
