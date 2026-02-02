@@ -6,12 +6,6 @@ This package provides the Variants of uncertain significance-guided pretrained d
 - Preprocessing scripts for variant filtering, feature preparation, and VUS selection for pretraining (BRCA1_BRCA2_VUS_preprocessing.R, MLH1_MSH2_VUS_preprocessing.R)
 - Training code for joint VUS and disease-specific pretraining, followed by gene-specific (BRCA1) or disease-specific (BRCA2, MLH1, MSH2) fine-tuning, as used in this study.
 
-## Copyright
-Copyright (c) 2026 Lee, D.-B, Kang, H.-U, and and Hwang, K.-B. All rights reserved. The author retains all rights to this software and documentation
-
-## Contact
-If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
-
 ## Dependencies
 VGDNN uses the following software and R packages:
 - R (>= 3.6)
@@ -29,6 +23,15 @@ VGDNN uses the following software and R packages:
 - gnomAD version 3.1.2
 - Korean Variant Archive version 2
 - Korean Reference Genome Database phase 2
+
+## Copyright
+- Copyright (c) 2026 Lee, D.-B, Kang, H.-U, and and Hwang, K.-B. All rights reserved. The author retains all rights to this software and documentation
+
+## Contact
+- If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
+
+## Citation
+- D.-B. Lee et al., Disease- and gene-specific deep learning for pathogenicity prediction of rare missense variants in cancer predisposition genes (submitted)
 
 ## Installation
 Download the source code and the dataset, then put them in the current working directory.
