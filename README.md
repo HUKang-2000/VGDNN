@@ -24,10 +24,8 @@ VGDNN uses the following software and R packages:
 - Korean Variant Archive version 2
 - Korean Reference Genome Database phase 2
 
-## Copyright
+## Copyright & Contact
 - Copyright (c) 2026 Lee, D.-B, Kang, H.-U, and and Hwang, K.-B. All rights reserved. The author retains all rights to this software and documentation
-
-## Contact
 - If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
 
 ## Citation
