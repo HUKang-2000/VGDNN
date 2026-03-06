@@ -151,8 +151,7 @@ fit_model<-fit(Classification_model,
                y_train,
                epochs=epochs,
                shuffle=TRUE,
-               batch_size=batchs,
-               validation_data = list(x_test,y_test)
+               batch_size=batchs
 )
 
 predictions_tr <- predict(Classification_model, as.matrix(x_train))
