@@ -66,8 +66,7 @@ fit_model<-fit(Regression_model,
                x_train,
                epochs=40,
                shuffle=TRUE,
-               batch_size=200,
-               validation_data = list(x_test,x_test)
+               batch_size=200
 )
 
 save_model_weights_tf(
