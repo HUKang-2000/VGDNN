@@ -80,8 +80,7 @@ fit_model<-fit(Regression_model,
                x_train,
                epochs=auto_epoch,
                shuffle=TRUE,
-               batch_size=100,
-               validation_data = list(x_test,x_test)
+               batch_size=100
 )
 
 d<-paste("x_train_",fold,"_MSH2",sep="")
