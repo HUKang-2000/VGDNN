@@ -29,7 +29,7 @@ VGDNN uses the following software and R packages:
 - If you have any questions, please feel free to contact me: kbhwang@ssu.ac.kr
 
 ## Citation
-- D.-B. Lee et al., Disease- and gene-specific deep learning for pathogenicity prediction of rare missense variants in cancer predisposition genes (submitted)
+- D.-B. Lee et al., Disease- and gene-specific deep learning for pathogenicity prediction of rare missense variants in cancer predisposition genes
 
 ## Installation
 Download the source code and the dataset, then put them in the current working directory.
