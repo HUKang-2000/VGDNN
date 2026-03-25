@@ -36,7 +36,6 @@ Download the source code and the dataset, then put them in the current working d
 ```sh
 wget --no-check-certificate "https://drive.google.com/uc?export=download&id=1lWc2W5TCyj_ujJ81O0dfxx0Sm3LXc0x_" -O VGDNN.tar.gz
 ```
-OR open the save link in any web browser: [https://drive.google.com/file/d/1lWc2W5TCyj_ujJ81O0dfxx0Sm3LXc0x_/view?usp=sharing]
 
 ## Usage
 1. Extract downloaded folder:
